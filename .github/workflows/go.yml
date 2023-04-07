@@ -18,7 +18,7 @@ jobs:
     - name: Build and test
       run: |                         
         go build
-        go test -v deck_test.go    
+        go test -v
 
     - name: Run Security Scan
       run: gosec ./...
